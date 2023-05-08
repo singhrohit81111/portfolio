@@ -54,7 +54,7 @@ export default function Project() {
               <span className='ps2'>React, Javascript, HTML, SASS, React-Reach-Router</span>
             </div>
             <div className='pj2114'>
-              <div className='pbt1'><button>Source code</button></div>
+              <div className='pbt1'><button><a href='https://github.com/singhrohit81111/portfolio' target='_blank'>Source code</a></button></div>
             </div>
           </div>
         </div>
