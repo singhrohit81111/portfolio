@@ -1,0 +1,144 @@
+.project {
+    font-family: Comic Sans MS;
+
+    .pj1 {
+        font-size: 35px;
+        margin-top: 25px;
+        margin-bottom: 12px;
+        color: darkgray;
+
+        @media screen and (max-width: 480px) {
+            font-size: 23px;
+            margin-top: 1px;
+            margin-bottom: 7px;
+            font-weight: 700;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+            margin-top: 2px;
+            margin-bottom: 6px;
+            font-weight: 700;
+        }
+    }
+
+    .pj2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .pj21 {
+            max-height: 93vh;
+            max-width: 31vw;
+
+            img {
+                max-width: 30vw;
+                max-height: 42vh;
+                border-radius: 13px;
+                min-height: 34vh;
+            }
+
+            .pj211 {
+                .pj2111 {
+                    font-size: 19px;
+                    font-weight: 600;
+                    text-align: center;
+
+                    @media screen and (max-width: 480px) {
+                        font-size: 8px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 8px;
+                    }
+                }
+
+                .pj2112 {
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: gray;
+                    text-align: left;
+
+                    @media screen and (max-width: 480px) {
+                        font-size: 6px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 8px;
+                    }
+                }
+
+                .pj2113 {
+
+                    .ps1 {
+                        font-size: 17px;
+                        font-weight: 600;
+                        color: #a46ca4;
+
+                        @media screen and (max-width: 480px) {
+                            font-size: 11px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 11px;
+                        }
+                    }
+
+                    .ps2 {
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: gray;
+
+                        @media screen and (max-width: 480px) {
+                            font-size: 7px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+                .pj2114 {
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 30vw;
+                    margin: 0px 135px;
+
+                    @media screen and (max-width: 480px) {
+                        max-width: 18vw;
+                        margin: 0px 22px;
+                    }
+
+                    @media screen and (max-width: 768px) {
+                        max-width: 30vw;
+                        margin: 0px 27px;
+                    }
+
+                    .pbt1 {
+
+                        button {
+                            font-size: 15px;
+                            font-weight: 600;
+
+                            @media screen and (max-width: 480px) {
+                                font-size: 6px;
+
+                            }
+
+                            @media screen and (max-width: 768px) {
+                                font-size: 8px;
+                                font-weight: 600;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

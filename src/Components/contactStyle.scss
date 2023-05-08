@@ -1,0 +1,119 @@
+.con1 {
+    font-family: Comic Sans MS;
+
+    .con11 {}
+
+    .con0 {
+        display: flex;
+        justify-content: center;
+        min-height: 61vh;
+        max-height: 61vh;
+
+        .con12 {
+            max-width: 38vw;
+            border: 1px solid gray;
+            border-radius: 11px;
+            min-width: 38vw;
+
+            .con121 {
+                border-bottom: 1px solid gray;
+                max-width: 38vw;
+                text-align: left;
+                margin: 0px 10px;
+
+                .lab {
+                    font-weight: 600;
+
+                    @media screen and (max-width: 480px) {
+                        font-size: 14px;
+                    }
+
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                }
+            }
+
+            .con122 {
+                border-bottom: 1px solid gray;
+                max-width: 38vw;
+                text-align: left;
+                margin: 0px 10px;
+
+                .lab {
+                    font-weight: 600;
+
+                    @media screen and (max-width: 480px) {
+                        font-size: 14px;
+                    }
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                }
+            }
+
+            .con123 {
+                border-bottom: 1px solid gray;
+                max-width: 38vw;
+                text-align: left;
+                margin: 0px 10px;
+
+                .lab {
+                    font-weight: 600;
+
+                    @media screen and (max-width: 480px) {
+                        font-size: 14px;
+                    }
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                }
+            }
+
+            .con124 {
+                max-width: 38vw;
+                text-align: left;
+                margin: 0px 10px;
+                display: flex;
+
+                .lab {
+                    font-weight: 600;
+
+                    @media screen and (max-width: 480px) {
+                        font-size: 14px;
+                    }
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                    min-height: 41vh;
+                    min-width: 30vw;
+
+                    @media screen and (max-width: 480px) {
+                        min-height: 22vh;
+                        min-width: 14vw;
+                    }
+                    @media screen and (max-width: 768px) {
+                        min-height: 22vh;
+                        min-width: 16vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .ic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+
+    }
+}

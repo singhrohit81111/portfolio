@@ -1,0 +1,180 @@
+.ab1 {
+    max-width: 46vw;
+    margin-left: 26%;
+    margin-top: 4%;
+
+    .ab2 {
+        font-size: 29px;
+        font-weight: 800;
+        font-family: Comic Sans MS;
+
+        @media screen and (max-width: 480px) {
+            font-size: 22px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+        }
+    }
+
+    .ab3 {
+        font-family: Comic Sans MS;
+        color: white;
+
+        @media screen and (max-width: 480px) {
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 10px;
+        }
+
+        .ab31 {
+            text-align: left;
+        }
+    }
+
+
+}
+
+.ab4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 149px;
+
+    @media screen and (max-width: 480px) {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -7px;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-top: 6px;
+    }
+
+    .ab001 {
+        font-size: 29px;
+        font-weight: 800;
+        font-family: Comic Sans MS;
+
+        @media screen and (max-width: 768px) {
+            font-size: 19px;
+        }
+    }
+
+    .ab002 {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+
+        .ab41 {
+            font-size: 18px;
+            font-weight: 600;
+
+            @media screen and (max-width: 768px) {
+                font-size: 10px;
+            }
+
+            .ab411:hover {
+                cursor: pointer;
+                color: rgb(104, 111, 150);
+            }
+        }
+
+        .ab42 {
+            font-size: 18px;
+            font-weight: 600;
+
+            @media screen and (max-width: 768px) {
+                font-size: 10px;
+            }
+
+            .ab421:hover {
+                cursor: pointer;
+                color: rgb(104, 111, 150);
+            }
+        }
+    }
+}
+
+.home10 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 39px 0px 11px;
+
+    .h110 {
+        max-width: 6vw;
+        color: white;
+        border-radius: 3px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: Comic Sans MS;
+
+        @media screen and (max-width: 480px) {
+            max-width: 12vw;
+            font-size: 13px;
+        }
+    }
+
+    .h120 {
+        display: flex;
+        justify-content: space-between;
+        min-width: 26vw;
+        font-family: Comic Sans MS;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 19px;
+            font-weight: 600;
+        }
+
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            min-width: 36vw;
+
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+
+    span {
+        display: none;
+    }
+
+    @media screen and (max-width: 480px) {
+        span {
+            display: inline-block;
+        }
+    }
+}
+
+
+.dd0 {
+display: none;
+    @media screen and (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+
+        a {
+            font-size: 11px;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: black;
+        }
+    }
+    
+    
+}
+
+
