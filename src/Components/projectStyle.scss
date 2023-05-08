@@ -135,6 +135,12 @@
                                 text-decoration: none;
                                 color: black;
                             }
+                            @media screen and (max-width: 480px) {
+                                a{
+                                    font-size:6px
+                                }
+
+                            }
                         }
                     }
                 }
